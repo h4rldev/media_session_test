@@ -7,4 +7,5 @@ edition = "2021"
 
 [dependencies]
 futures = "0.3.29"
-windows = { version="0.52.0", features = ["Media", "Media_Control", "Foundation"] }
+tokio = "1.35.0"
+windows = { version="0.52.0", features = ["Media", "Media_Control", "Foundation", "Storage_Streams"] }
